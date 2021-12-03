@@ -1,0 +1,330 @@
+@media (max-width: 767px) {
+
+    #firstPage {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+
+        .nav1 {
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+        }
+
+        .navobwi {
+            display: none;
+        }
+
+        .nav1-1 {
+            display: block;
+            border: none;
+            color: white;
+            box-shadow: none;
+            outline: none;
+
+            button {
+                border: none;
+                font-size: 25px;
+                outline: none;
+                background-color: transparent;
+                color: #86dd84;
+            }
+        }
+
+        .firstPage2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        .firstPage2-1 {
+            display: none;
+        }
+
+        .firstPage2-2 {
+            height: 100%;
+            width: 70%;
+            display: flex;
+
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 20px;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            a {
+                font-size: 15px;
+                // margin-top: 50px;
+            }
+        }
+
+        .firstPage2-3 {
+            display: none;
+        }
+
+        .firstpage3 {
+            display: none;
+        }
+    }
+
+    #secondPage {
+        width: 100%;
+        height: 150vh;
+        position: relative;
+
+        .secondpage {
+            width: 100%;
+            height: 100%;
+        }
+
+        .onastext {
+            width: 100%;
+        }
+
+        .onasimage {
+            padding-top: 0;
+            justify-content: center;
+            width: 100%;
+            height: 100vh;
+
+            .imgonas {
+                height: 90%;
+            }
+        }
+
+        .secondpage1 {
+            top: 20px;
+            text-align: center;
+            position: absolute;
+
+            h1 {
+                font-size: 55px;
+            }
+        }
+
+        .yozuv1 {
+            display: none;
+        }
+
+        .yozuv2 {
+            padding-top: 40px;
+            padding-left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .yozuv2-2 {
+            font-size: 30px;
+        }
+
+        .nomerlar {
+            display: none;
+        }
+
+        .insecondpage {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    #thirdpage {
+        display: none;
+        width: 100%;
+        height: 150vh;
+
+        .inthirdpage {
+            top: 20px;
+            align-items: center;
+            height: auto;
+            text-align: center;
+        }
+
+        .inthirdpage1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-top: 0;
+            padding-left: 0;
+
+            .thirdtext {
+                width: 100%;
+                height: 100%;
+            }
+
+            .thirdimage {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+
+                img {
+                    height: auto;
+                    width: 80%;
+                }
+            }
+
+            .thirdtext-top {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+            }
+        }
+
+        .mimojem {
+            font-size: 50px;
+            text-align: center;
+        }
+    }
+
+    .fourthpage {
+        width: 100%;
+        height: 100vh;
+
+        .fourthpage1 {
+            padding-left: 0;
+
+            .fp1-1 {
+                flex-direction: column;
+
+                .fp1-1-1 {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #fifthpage {
+        width: 100%;
+        height: 100vh;
+
+        .fp {
+            justify-content: flex-start;
+        }
+
+        .fP {
+            top: 0;
+        }
+
+        .fp2 {
+            width: 100%;
+        }
+
+        .fp1 {
+            padding-top: 20px;
+            text-align: center;
+        }
+    }
+
+    .sixthpage {
+        width: 100%;
+        height: 100vh;
+
+        .sixthpage1 {
+            justify-content: unset;
+        }
+
+        .sixthpage1-1 {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+
+
+        .sixthpage1-2-2 {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .emblem {
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+        .sixthpage1-2-1,
+        .sixthpage1-2-3 {
+            display: none;
+        }
+
+        .part {
+            display: none;
+        }
+
+        .sixthpage1-2 {
+            text-align: center;
+        }
+
+        .sixthpage1-2-2-top {
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            padding-top: unset;
+        }
+    }
+
+    #seventhpage {
+        width: 100%;
+        height: 200vh;
+
+        .spg {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sp1 {
+            width: 100%;
+        }
+
+        .sp1-2 form input {
+            width: 300px;
+        }
+
+        .sp1-2 form button {
+            width: 300px;
+        }
+    }
+
+    #eighthpage {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .ep1-3 {
+        display: none;
+    }
+
+    .ep1-5 {
+        display: none;
+    }
+
+    #pagefirst {
+        .navobwi {
+            display: none;
+        }
+    }
+}
